@@ -12,6 +12,7 @@ payload:
 - DOMAIN-SUFFIX,nodeseek.com
 - DOMAIN-SUFFIX,hostloc.com
 - DOMAIN-SUFFIX,v2ex.com
+- DOMAIN-KEYWORD,follow
 - DOMAIN-KEYWORD,sehuatang
 - DOMAIN-KEYWORD,wiki
 - DOMAIN-KEYWORD,github
@@ -58,4 +59,3 @@ payload:
 - DOMAIN,pt.sjtu.edu.cn
 - DOMAIN,ptvicomo.net
 - DOMAIN,nanyangpt.com
-- DOMAIN,follow.is
