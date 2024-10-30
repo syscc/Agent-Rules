@@ -5,7 +5,7 @@ payload:
     - +.onedrive.live.com
     - +.similarweb.com
     - +.cloudflare.com
-    - +.sehuatang.net
+    - +.sehuatang.*
     - +.alwaysdata.com
     - +.nodeseek.com
     - +.hostloc.com
