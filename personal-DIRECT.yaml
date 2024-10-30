@@ -29,3 +29,4 @@ rules:
 - DOMAIN-KEYWORD,cf
 - DOMAIN-KEYWORD,onedrive
 - DOMAIN-KEYWORD,sharepoint
+- DOMAIN,speed.cloudflare.com
