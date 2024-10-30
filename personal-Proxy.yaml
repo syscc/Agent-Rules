@@ -2,12 +2,11 @@ rules:
 - DOMAIN-SUFFIX,follow.is
 - DOMAIN,hunter.how
 - DOMAIN-SUFFIX,torrentmac.net
-- DOMAIN,speed.cloudflare.com,DIRECT
 - DOMAIN,onedrive.live.com
 - DOMAIN,star-space.net
 - DOMAIN-SUFFIX,similarweb.com
 - DOMAIN-SUFFIX,cloudflare.com
-- DOMAIN-KEYWORD,sehuatang
+- DOMAIN-SUFFIX,sehuatang.net
 - DOMAIN-SUFFIX,alwaysdata.com
 - DOMAIN-SUFFIX,nodeseek.com
 - DOMAIN-SUFFIX,hostloc.com
