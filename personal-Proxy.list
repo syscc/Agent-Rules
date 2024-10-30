@@ -1,56 +1,55 @@
-# 内容：自用Proxy规则
-
-##DOMAIN-SUFFIX,google.com,Proxy #匹配域名后缀(交由Proxy代理服务器组)
-##DOMAIN-KEYWORD,google,Proxy #匹配域名关键字(交由Proxy代理服务器组)
-##DOMAIN,google.com,Proxy #匹配域名(交由Proxy代理服务器组)
-##DST-PORT,80,DIRECT #匹配数据目标端口(直连)
-##SRC-PORT,7777,DIRECT #匹配数据源端口(直连)
-
-DOMAIN,store.steampowered.com
-DOMAIN,star-space.net
-DOMAIN-SUFFIX,similarweb.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-KEYWORD,sehuatang
-DOMAIN-SUFFIX,alwaysdata.com
-DOMAIN-SUFFIX,nodeseek.com
-DOMAIN-SUFFIX,hostloc.com
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-KEYWORD,wiki
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,thetvdb
-DOMAIN-KEYWORD,themoviedb
-DOMAIN-KEYWORD,tmdb
-DOMAIN-KEYWORD,docker
-DOMAIN,www.agsvpt.com
-DOMAIN,audiences.me
-DOMAIN,azusa.wiki
-DOMAIN,ptchdbits.co
-DOMAIN,www.empornium.is
-DOMAIN,pt.0ff.cc
-DOMAIN,greatposterwall.com
-DOMAIN,www.hddolby.com
-DOMAIN,hdarea.club
-DOMAIN,hdatmos.club
-DOMAIN,hdfans.org
-DOMAIN,hdhome.org
-DOMAIN,hdsky.me
-DOMAIN,hdtime.org
-DOMAIN,iptorrents.com
-DOMAIN,kamept.com
-DOMAIN,kimoji.club
-DOMAIN,kp.m-team.cc
-DOMAIN,www.nicept.net
-DOMAIN,open.cd
-DOMAIN,piggo.me
-DOMAIN,pt.keepfrds.com
-DOMAIN,pterclub.com
-DOMAIN,www.pttime.org
-DOMAIN,springsunday.net
-DOMAIN,www.torrentleech.org
-DOMAIN,totheglory.im
-DOMAIN,u2.dmhy.org
-DOMAIN,tjupt.org
-DOMAIN,star-space.net
-DOMAIN,leaves.red
-DOMAIN,pt.sjtu.edu.cn
-DOMAIN,ptvicomo.net
+rules:
+- DOMAIN-SUFFIX,follow.is
+- DOMAIN,hunter.how
+- DOMAIN-SUFFIX,torrentmac.net
+- DOMAIN,onedrive.live.com
+- DOMAIN,star-space.net
+- DOMAIN-SUFFIX,similarweb.com
+- DOMAIN-SUFFIX,cloudflare.com
+- DOMAIN-SUFFIX,sehuatang.net
+- DOMAIN-SUFFIX,alwaysdata.com
+- DOMAIN-SUFFIX,nodeseek.com
+- DOMAIN-SUFFIX,hostloc.com
+- DOMAIN-SUFFIX,v2ex.com
+- DOMAIN-KEYWORD,wiki
+- DOMAIN-KEYWORD,github
+- DOMAIN-KEYWORD,thetvdb
+- DOMAIN-KEYWORD,themoviedb
+- DOMAIN-KEYWORD,tmdb
+- DOMAIN-KEYWORD,telegram
+- DOMAIN-KEYWORD,docker
+- DOMAIN,www.agsvpt.com
+- DOMAIN,audiences.me
+- DOMAIN,azusa.wiki
+- DOMAIN,wiki.pterclub.com
+- DOMAIN,ptchdbits.co
+- DOMAIN,www.empornium.is
+- DOMAIN,pt.0ff.cc
+- DOMAIN,greatposterwall.com
+- DOMAIN,www.hddolby.com
+- DOMAIN,hdarea.club
+- DOMAIN,hdatmos.club
+- DOMAIN,hdfans.org
+- DOMAIN,hdhome.org
+- DOMAIN,hdsky.me
+- DOMAIN,hdtime.org
+- DOMAIN,iptorrents.com
+- DOMAIN,kamept.com
+- DOMAIN,kimoji.club
+- DOMAIN,kp.m-team.cc
+- DOMAIN,www.nicept.net
+- DOMAIN,open.cd
+- DOMAIN,piggo.me
+- DOMAIN,pt.keepfrds.com
+- DOMAIN,pterclub.com
+- DOMAIN,www.pttime.org
+- DOMAIN,springsunday.net
+- DOMAIN,www.torrentleech.org
+- DOMAIN,totheglory.im
+- DOMAIN,u2.dmhy.org
+- DOMAIN,tjupt.org
+- DOMAIN,star-space.net
+- DOMAIN,leaves.red
+- DOMAIN,pt.sjtu.edu.cn
+- DOMAIN,ptvicomo.net
+- DOMAIN,nanyangpt.com
