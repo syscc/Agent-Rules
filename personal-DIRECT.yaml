@@ -1,6 +1,8 @@
 payload:
     - +.dl.google.com
+    - +.tracker-public.tjupt.org
     - +.tracker
+    - +*tracker*
     - +.chdbits.xyz
     - +.hdatmos.club
     - +.hdfans.org
