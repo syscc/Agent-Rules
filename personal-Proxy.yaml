@@ -53,3 +53,8 @@ rules:
 - DOMAIN,pt.sjtu.edu.cn
 - DOMAIN,ptvicomo.net
 - DOMAIN,nanyangpt.com
+
+payload:
+    - +.star-space.net
+    - +.www.nodeseek.com
+    - +.hdsky.me
