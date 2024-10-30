@@ -5,7 +5,6 @@ payload:
 ##- DOMAIN,google.com,Proxy #匹配域名(交由Proxy代理服务器组)
 ##- DOMAIN-SUFFIX,ad.com,REJECT #匹配域名后缀(拒绝)
 
-- DOMAIN-SUFFIX,follow.is
 - DOMAIN-SUFFIX,torrentmac.net
 - DOMAIN-SUFFIX,similarweb.com
 - DOMAIN-SUFFIX,cloudflare.com
@@ -59,3 +58,4 @@ payload:
 - DOMAIN,pt.sjtu.edu.cn
 - DOMAIN,ptvicomo.net
 - DOMAIN,nanyangpt.com
+- DOMAIN,follow.is
