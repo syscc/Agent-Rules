@@ -17,6 +17,10 @@ payload:
     - +.tracker2.leaves.red
     - +.tracker3.leaves.red
     - +.tracker.0ff.cc
+    - +.tracker.m-team.cc
+    - +.tracker.m-team.*
+    - +.tracker.hdarea.club
+    - +.tracker.hdsky.me
     - +.chdbits.xyz
     - +.hdatmos.club
     - +.hdfans.org
