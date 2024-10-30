@@ -1,4 +1,4 @@
-rules:
+payload:
     - +.dl.google.com
     - +.tracker
     - +.chdbits.xyz
