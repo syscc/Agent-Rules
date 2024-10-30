@@ -22,7 +22,6 @@ payload:
 - DOMAIN-KEYWORD,telegram
 - DOMAIN-KEYWORD,docker
 - DOMAIN,hunter.how
-- DOMAIN,speed.cloudflare.com,DIRECT
 - DOMAIN,onedrive.live.com
 - DOMAIN,star-space.net
 - DOMAIN,www.agsvpt.com
