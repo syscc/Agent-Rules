@@ -12,6 +12,7 @@ payload:
 - DOMAIN-SUFFIX,v2ex.com
 - DOMAIN-SUFFIX,audiences.me
 - DOMAIN-SUFFIX,ptchdbits.co
+- DOMAIN-SUFFIX,hdkyl.in
 - DOMAIN-KEYWORD,follow
 - DOMAIN-KEYWORD,sehuatang
 - DOMAIN-KEYWORD,wiki
@@ -33,7 +34,6 @@ payload:
 - DOMAIN,www.hddolby.com
 - DOMAIN,hdarea.club
 - DOMAIN,hdatmos.club
-- DOMAIN,www.hdkyl.in
 - DOMAIN,hdhome.org
 - DOMAIN,hdsky.me
 - DOMAIN,hdtime.org
