@@ -1,5 +1,4 @@
 payload:
-
 ##- DOMAIN-SUFFIX,google.com,Proxy #匹配域名后缀(交由Proxy代理服务器组)
 ##- DOMAIN-KEYWORD,google,Proxy #匹配域名关键字(交由Proxy代理服务器组)
 ##- DOMAIN,google.com,Proxy #匹配域名(交由Proxy代理服务器组)
@@ -12,6 +11,7 @@ payload:
 - DOMAIN-SUFFIX,nodeseek.com
 - DOMAIN-SUFFIX,hostloc.com
 - DOMAIN-SUFFIX,v2ex.com
+- DOMAIN-SUFFIX,audiences.me
 - DOMAIN-KEYWORD,follow
 - DOMAIN-KEYWORD,sehuatang
 - DOMAIN-KEYWORD,wiki
@@ -25,7 +25,6 @@ payload:
 - DOMAIN,onedrive.live.com
 - DOMAIN,star-space.net
 - DOMAIN,www.agsvpt.com
-- DOMAIN,audiences.me
 - DOMAIN,azusa.wiki
 - DOMAIN,wiki.pterclub.com
 - DOMAIN,ptchdbits.co
