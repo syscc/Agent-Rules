@@ -63,6 +63,7 @@ payload:
 - DOMAIN-KEYWORD,telegram
 - DOMAIN-KEYWORD,docker
 - DOMAIN-KEYWORD,m-team
+- DOMAIN-KEYWORD,pypi
 - DOMAIN,hunter.how
 - DOMAIN,onedrive.live.com
 - DOMAIN,grok.com
