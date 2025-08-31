@@ -66,6 +66,8 @@ payload:
 - DOMAIN-KEYWORD,docker
 - DOMAIN-KEYWORD,m-team
 - DOMAIN-KEYWORD,pypi
+- DOMAIN-KEYWORD,github
 - DOMAIN,hunter.how
 - DOMAIN,onedrive.live.com
 - DOMAIN,grok.com
+- DOMAIN,download.proxmox.com
