@@ -71,3 +71,4 @@ payload:
 - DOMAIN,onedrive.live.com
 - DOMAIN,grok.com
 - DOMAIN,download.proxmox.com
+- DOMAIN,deb.debian.org
