@@ -31,6 +31,6 @@ payload:
 - DOMAIN,www.hdkylin.top
 - DOMAIN,www.pttime.org
 - DOMAIN-SUFFIX,yc.ee
-- DOMAIN-SUFFIX,wq.ee
+# - DOMAIN-SUFFIX,wq.ee
 - DOMAIN-SUFFIX,yyej.com
 - DOMAIN,speed.cloudflare.com
