@@ -3,7 +3,7 @@ payload:
 ##- DOMAIN-KEYWORD,google,Proxy #匹配域名关键字(交由Proxy代理服务器组)
 ##- DOMAIN,google.com,Proxy #匹配域名(交由Proxy代理服务器组)
 - DOMAIN,api.nullbr.eu.org
-- DOMAIN-KEYWORD,gnullbr
+- DOMAIN-KEYWORD,nullbr
 - DOMAIN-SUFFIX,githubusercontent.com
 - DOMAIN-SUFFIX,docker.com
 - DOMAIN-SUFFIX,ymawv.la
