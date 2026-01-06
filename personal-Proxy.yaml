@@ -2,10 +2,10 @@ payload:
 ##- DOMAIN-SUFFIX,google.com,Proxy #匹配域名后缀(交由Proxy代理服务器组)
 ##- DOMAIN-KEYWORD,google,Proxy #匹配域名关键字(交由Proxy代理服务器组)
 ##- DOMAIN,google.com,Proxy #匹配域名(交由Proxy代理服务器组)
-- DOMAIN,dc.p86.net
 - DOMAIN,api.nullbr.eu.org
 - DOMAIN-KEYWORD,nullbr
 - DOMAIN-SUFFIX,githubusercontent.com
+- DOMAIN-SUFFIX,pythonhosted.org
 - DOMAIN-SUFFIX,docker.com
 - DOMAIN-SUFFIX,ymawv.la
 - DOMAIN-SUFFIX,azurecr.io
@@ -78,4 +78,3 @@ payload:
 - DOMAIN,download.proxmox.com
 - DOMAIN,deb.debian.org
 - DOMAIN,api.wq.ee
-
