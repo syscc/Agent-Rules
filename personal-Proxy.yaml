@@ -80,5 +80,6 @@ payload:
 - DOMAIN,download.proxmox.com
 - DOMAIN,deb.debian.org
 - DOMAIN,api.wq.ee
+- DOMAIN,dc.p86.net
 
 
