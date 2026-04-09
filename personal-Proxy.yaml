@@ -59,7 +59,7 @@ payload:
 - DOMAIN-SUFFIX,hdkyl.in
 - DOMAIN-SUFFIX,hdkylin.com
 - DOMAIN-SUFFIX,lemonhd.club
-- DOMAIN-SUFFIX,ghcr.io
+- DOMAIN,ghcr.io
 - DOMAIN-KEYWORD,hhan
 - DOMAIN-KEYWORD,follow
 - DOMAIN-KEYWORD,sehuatang
@@ -99,4 +99,3 @@ payload:
 - IP-CIDR,185.222.222.222/32,no-resolve
 - IP-CIDR,208.67.222.222/32,no-resolve
 - IP-CIDR,208.67.220.220/32,no-resolve
-
