@@ -5,16 +5,20 @@
 ##DOMAIN,google.com,Proxy #匹配域名(交由Proxy代理服务器组)
 ##DST-PORT,80,DIRECT #匹配数据目标端口(直连)
 ##SRC-PORT,7777,DIRECT #匹配数据源端口(直连)
-DOMAIN,t.hdsky.me
-DOMAIN,dl.google.com
-DOMAIN-KEYWORD,dow
+
+DOMAIN-KEYWORD,cf
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,sharepoint
+DOMAIN-KEYWORD,binance
 DOMAIN-KEYWORD,tracker
+DOMAIN,dl.google.com
 DOMAIN,chdbits.xyz
 DOMAIN,hdatmos.club
 DOMAIN,hdfans.org
 DOMAIN,hdpt.xyz
+DOMAIN,t.hdsky.me
+DOMAIN,tracker.hdsky.me
 DOMAIN,hdvideo.one
-DOMAIN,hhanclub.top
 DOMAIN,on.springsunday.net
 DOMAIN,ourbits.club
 DOMAIN,pandapt.net
@@ -29,10 +33,6 @@ DOMAIN,www.dragonhd.xyz
 DOMAIN,www.hdkyl.in
 DOMAIN,www.hdkylin.top
 DOMAIN,www.pttime.org
-DOMAIN-KEYWORD,binance
-DOMAIN-KEYWORD,yc
-DOMAIN-KEYWORD,wq
-DOMAIN-KEYWORD,yyej
-DOMAIN-KEYWORD,cf
-DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,sharepoint
+DOMAIN-SUFFIX,yc.ee
+DOMAIN-SUFFIX,yyej.com
+DOMAIN,speed.cloudflare.com
