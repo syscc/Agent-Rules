@@ -8,6 +8,7 @@
 DOMAIN,chatgpt.com
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,hdhive
+DOMAIN-SUFFIX,paseo.sh
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,pythonhosted.org
 DOMAIN-SUFFIX,docker.com
