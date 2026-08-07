@@ -6,14 +6,15 @@
 ##DST-PORT,80,DIRECT #匹配数据目标端口(直连)
 ##SRC-PORT,7777,DIRECT #匹配数据源端口(直连)
 DOMAIN,anyrouter.top
-DOMAIN-SUFFIXambition.qzz.io
+DOMAIN-SUFFIX,ambition.qzz.io
+DOMAIN-SUFFIX,api.42w.shop
 DOMAIN,elysiver.h-e.top
-DOMAIN-SUFFIXfastaitoken.com
-DOMAIN-SUFFIXfengwind.com
+DOMAIN-SUFFIX,fastaitoken.com
+DOMAIN-SUFFIX,fengwind.com
 DOMAIN,elysiver.h-e.top
 DOMAIN,fluxionai.space
 DOMAIN,x666.me
-DOMAIN-SUFFIXprism.uno
+DOMAIN-SUFFIX,prism.uno
 DOMAIN,free.lyclaude.site
 DOMAIN,aihub.top
 DOMAIN,agentrouter.org
