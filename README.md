@@ -14,7 +14,6 @@ sing-box 的 `route.rule_set` 只接受 source JSON 或 binary `.srs`，不能�
 | `MyDirect.list` | 直连规则（Clash 格式，手工维护） |
 | `MyProxy.list` | 代理规则（Clash 格式，手工维护） |
 | `MyDirect.srs` / `MyProxy.srs` | 由 Actions 自动生成的 sing-box 二进制规则集，**不要手工编辑** |
-| `personal-*.yaml` | 旧版 Clash 规则片段（历史遗留） |
 | `scripts/clash2srs.py` | 转换脚本：Clash `.list` → sing-box source JSON → `.srs` |
 
 ## 工作流
