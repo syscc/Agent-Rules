@@ -1,0 +1,81 @@
+name: Build sing-box rule-sets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*.list"
+      - "scripts/clash2srs.py"
+      - ".github/workflows/build-ruleset.yml"
+  pull_request:
+    paths:
+      - "*.list"
+      - "scripts/clash2srs.py"
+      - ".github/workflows/build-ruleset.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  # 固定版本，保证生成的 .srs 可复现；升级时改这里即可
+  SING_BOX_VERSION: "1.14.4"
+
+concurrency:
+  group: build-ruleset-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download sing-box
+        run: |
+          set -euo pipefail
+          url="https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
+          curl -fsSL "$url" -o /tmp/sing-box.tar.gz
+          tar -xzf /tmp/sing-box.tar.gz -C /tmp
+          install -m 0755 "/tmp/sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" /usr/local/bin/sing-box
+          sing-box version
+
+      - name: Compile .list to .srs
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=( *.list )
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "没有找到 .list 文件"
+            exit 1
+          fi
+          python3 scripts/clash2srs.py "${files[@]}"
+
+      - name: Verify output
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for srs in *.srs; do
+            sing-box rule-set decompile --output "/tmp/${srs}.json" "$srs"
+            echo "ok: $srs ($(stat -c%s "$srs") 字节)"
+          done
+
+      - name: Commit rule-sets
+        if: github.event_name != 'pull_request'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.srs'
+          if git diff --cached --quiet; then
+            echo "规则集无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: rebuild sing-box rule-sets from .list"
+          git push
