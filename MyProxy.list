@@ -107,8 +107,6 @@ DOMAIN,onedrive.live.com
 DOMAIN,grok.com
 DOMAIN,download.proxmox.com
 DOMAIN,deb.debian.org
-DOMAIN,api.wq.ee
-DOMAIN,dc.p86.net
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
 DOMAIN-SUFFIX,dot.sb
